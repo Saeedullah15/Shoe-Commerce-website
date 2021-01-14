@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shoe</title>
+    <title>The Shoe Rack</title>
     <link rel="stylesheet" href="shoe-style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="web-icon.png" type="image/x-icon">
 </head>
 <body>
     <header class="container-fluid background justify-content-end">
         <div class="logo-and-nav d-flex">
-            <div class="logo col-md-7">
-                <img src="Logo, Icon/Logo.png" alt="">
+            <div class="logo col-md-7 fw-bold">
+                <img src="web-icon.png" alt=""> The Shoe Rack
             </div>
             <div class="nav col-md-5">
                 <ul class="nav">
@@ -19,13 +21,13 @@
                       <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Product</a>
+                      <a class="nav-link" href="#casual">Product</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">About Us</a>
+                      <a class="nav-link" href="#about">About Us</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Contact Us</a>
+                      <a class="nav-link" href="#contact">Contact Us</a>
                     </li>
                   </ul>
             </div>
@@ -35,27 +37,27 @@
                 <img src="Photos/Group 33092.png" alt="">
             </div>
             <div class="text">
-                <h1>NIKE REACT</h1>
-                <h1>INFINITY RUN 2</h1>
+                <h1 style="color: rgba(0, 183, 255, 0.767); font-size: 60px;">NIKE REACT</h1>
+                <h1 style="color: rgb(236, 28, 28); font-size: 60px;">INFINITY RUN 2</h1>
                 <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe deserunt reprehenderit distinctio!</P>
-                <button>Buy Now</button>
+                <button class="btn btn-warning" ><i class="fa fa-shopping-cart"></i> Buy Now</button>
             </div>
         </div>
     </header>
-    <main class="container">
-        <section class="sec-1 mt-5">
-            <h1>CASUAL SHOES</h1>
+    <main>
+        <section class="sec-1 container mt-5">
+            <h1 id="casual" class="highlight-1">CASUAL SHOES</h1>
             <div class="row row-cols-1 mt-4 row-cols-md-3 g-4">
                 <div class="col">
                   <div class="card border-0 shadow h-100">
                     <img src="Photos/image 5.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Nike Shoe</h5>
+                      <h5 class="card-title highlight-2">Nike Shoe</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi veniam culpa harum.</p>
                     </div>
                     <div class="card-footer border-0 d-flex justify-content-around">
-                      <h1>$234</h1>
-                      <button>Buy Now</button>
+                      <h1 class="highlight-3">$234</h1>
+                      <button class="btn btn-warning"><i class="fa fa-shopping-cart"></i> Buy Now</button>
                     </div>
                   </div>
                 </div>
@@ -63,12 +65,12 @@
                     <div class="card border-0 shadow h-100">
                       <img src="Photos/Daco_1703273 1.png" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Sneakers Skate Shoe</h5>
+                        <h5 class="card-title highlight-2">Sneakers Skate Shoe</h5>
                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima eaque totam quas nesciunt!</p>
                       </div>
                       <div class="card-footer border-0 d-flex justify-content-around">
-                        <h1>$330</h1>
-                        <button>Buy Now</button>
+                        <h1 class="highlight-3">$330</h1>
+                        <button class="btn btn-warning"><i class="fa fa-shopping-cart"></i> Buy Now</button>
                       </div>
                     </div>
                   </div>
@@ -76,30 +78,30 @@
                     <div class="card border-0 shadow h-100">
                       <img src="Photos/pngegg 1.png" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Sneakers Basketball shoe</h5>
+                        <h5 class="card-title highlight-2">Sneakers Basketball shoe</h5>
                         <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem reiciendis saepe veniam.</p>
                       </div>
                       <div class="card-footer border-0 d-flex justify-content-around">
-                        <h1>$150</h1>
-                        <button>Buy Now</button>
+                        <h1 class="highlight-3">$150</h1>
+                        <button class="btn btn-warning"><i class="fa fa-shopping-cart"></i> Buy Now</button>
                       </div>
                     </div>
                   </div>
               </div>
         </section>
-        <section class="sec-2 mt-5">
-            <h1>FORMAL SHOES</h1>
+        <section class="sec-2 container mt-5">
+            <h1 class="highlight-1">FORMAL SHOES</h1>
             <div class="row row-cols-1 mt-4 row-cols-md-3 g-4">
                 <div class="col">
                   <div class="card border-0 shadow h-100">
                     <img src="Photos/Mask Group.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Prestige High-Cut Leather</h5>
+                      <h5 class="card-title highlight-2">Prestige High-Cut Leather</h5>
                       <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias commodi rerum architecto! Minima, iste perferendis.</p>
                     </div>
                     <div class="card-footer border-0 d-flex justify-content-around">
-                      <h1>$200</h1>
-                      <button>Buy Now</button>
+                      <h1 class="highlight-3">$200</h1>
+                      <button class="btn btn-warning"><i class="fa fa-shopping-cart"></i> Buy Now</button>
                     </div>
                   </div>
                 </div>
@@ -107,12 +109,12 @@
                     <div class="card border-0 shadow h-100">
                       <img src="Photos/Rectangle 38.png" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Slip-On Formal Shoe</h5>
+                        <h5 class="card-title highlight-2">Slip-On Formal Shoe</h5>
                         <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione sint vitae, excepturi id unde blanditiis.</p>
                       </div>
                       <div class="card-footer border-0 d-flex justify-content-around">
-                        <h1>$310</h1>
-                        <button>Buy Now</button>
+                        <h1 class="highlight-3">$310</h1>
+                        <button class="btn btn-warning"><i class="fa fa-shopping-cart"></i> Buy Now</button>
                       </div>
                     </div>
                   </div>
@@ -120,18 +122,18 @@
                     <div class="card border-0 shadow h-100">
                       <img src="Photos/Rectangle 39.png" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Slip-On Formal Shoee</h5>
+                        <h5 class="card-title highlight-2">Slip-On Formal Shoee</h5>
                         <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea facilis eius corrupti earum officia pariatur!</p>
                       </div>
                       <div class="card-footer border-0 d-flex justify-content-around">
-                        <h1>$400</h1>
-                        <button>Buy Now</button>
+                        <h1 class="highlight-3">$400</h1>
+                        <button class="btn btn-warning"><i class="fa fa-shopping-cart"></i> Buy Now</button>
                       </div>
                     </div>
                   </div>
               </div>
         </section>
-        <section class="sec-3 d-flex justify-content-around">
+        <section class="sec-3 container d-flex justify-content-around">
                 <div class="col-md-6">
                     <div class="card horizontal-card border-0 shadow mb-3" style="max-width: 500px;">
                         <div class="row g-0">
@@ -140,7 +142,7 @@
                           </div>
                           <div class="col-md-8">
                             <div class="card-body">
-                              <h5 class="card-title">Find the Perfect Fit</h5>
+                              <h5 class="card-title highlight-1">Find the Perfect Fit</h5>
                               <p class="card-text">Everybody is different, which is why we offer styles for every body.</p>
                             </div>
                           </div>
@@ -153,7 +155,7 @@
                           </div>
                           <div class="col-md-8">
                             <div class="card-body">
-                              <h5 class="card-title">Free Exchanges</h5>
+                              <h5 class="card-title highlight-1">Free Exchanges</h5>
                               <p class="card-text">One of the many reasons you can shop with peace of mind.</p>
                             </div>
                           </div>
@@ -166,7 +168,7 @@
                           </div>
                           <div class="col-md-8">
                             <div class="card-body">
-                              <h5 class="card-title">Contact Our Seller</h5>
+                              <h5 class="card-title highlight-1">Contact Our Seller</h5>
                               <p class="card-text">They are here to help you. That's quite literally what we pay them for.</p>
                             </div>
                           </div>
@@ -177,7 +179,30 @@
                     <img src="Logo, Icon/XMLID 1.png" alt="">
                 </div>
         </section>
+        <section class="sec-4 d-flex container-fluid">
+          <div id="about" class="col-md-4 p-5">
+            <h4>ABOUT US</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia temporibus accusamus commodi assumenda neque beatae natus sunt? Soluta sed quisquam consequatur asperiores pariatur reprehenderit repudiandae commodi tenetur dolorum nobis deserunt, beatae molestiae maiores praesentium fugit?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint incidunt dignissimos nostrum accusamus, aliquid quisquam.</p>
+          </div>
+          <div id="contact" class="col-md-4 p-5">
+            <h4>CONTACT US</h4>
+            <p><span class="fw-bold">Address: </span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p><span class="fw-bold">Phone No: </span>0943548322</p>
+            <p><span class="fw-bold">Email: </span>aygfkaeu7423@gmail.com</p>
+          </div>
+          <div class="col-md-4 p-5">
+            <h4>LET'S STAY IN TOUCH</h4>
+            <p>Get updates on sales, specials and more</p>
+            <input type="text" placeholder="Email">
+            <br>
+            <br>
+            <button class="btn btn-success">Submit</button>
+          </div>
+        </section> 
     </main>
+    <footer class="text-center mt-5 fw-bold">
+      <small>Copyright © 2021 The Shoe Rack. All Rights Reserved</small>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>

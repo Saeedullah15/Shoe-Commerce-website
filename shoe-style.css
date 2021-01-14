@@ -1,5 +1,5 @@
 .logo img{
-    width: 250px;
+    width: 50px;
 }
 .image img{
     width: 500px;
@@ -30,4 +30,37 @@
 .sec-3{
     margin-top: 100px;
     margin-bottom: 100px;
+}
+.highlight-1{
+    color: rgb(0, 0, 99);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+.highlight-2{
+    color: rgb(177, 5, 5);
+    font-weight: 700;
+}
+.highlight-3{
+    color: royalblue;
+}
+.sec-4{
+    height: 400px;
+    background-color: rgb(255, 247, 244);
+    text-align: justify;
+}
+.sec-4 h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    background-color: coral;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    width: 300px; 
+}
+body p{
+    color: gray;
+}
+input{
+    border-radius: 5px;
+    background-color: lightcyan;
 }
